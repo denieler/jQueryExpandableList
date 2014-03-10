@@ -1,0 +1,35 @@
+{
+    "name": "jQueryExpandableAjaxList",
+    "title": "jQuery Expandable Ajax List",
+    "description": "jQuery list that is expanding on getting responses by ajax requests",
+    "keywords": [
+        "list",
+        "expandable",
+        "expand",
+        "ajax"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Daniel Ostapenko",
+        "url": "https://github.com/DENIELER/jQueryExpandableList/Autors.txt"
+    },
+    "maintainers": [
+        {
+            "name": "Daniel Ostapenko",
+            "email": "danielostapenko@gmail.com",
+            "url": "http://danielostapenko.blogspot.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/DENIELER/jQueryExpandableList/MIT-LICENSE.txt"
+        }
+    ],
+    "homepage": "https://github.com/DENIELER/jQueryExpandableList",
+    "docs": "https://github.com/DENIELER/jQueryExpandableList",
+    "download": "http://code.jquery.com/#jQueryExpandableAjaxList",
+    "dependencies": {
+        "jquery": ">=1.8.4"
+    }
+}
