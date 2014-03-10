@@ -1,7 +1,7 @@
 {
     "name": "jQueryExpandableAjaxList",
     "title": "jQuery Expandable Ajax List",
-    "description": "jQuery list that is expanding on getting responses by ajax requests",
+    "description": "jQuery list that is expanding on getting responses by ajax requests. It updates only new appears or disapears list items according to the refresh ajax request.",
     "keywords": [
         "list",
         "expandable",
@@ -28,7 +28,7 @@
     ],
     "homepage": "https://github.com/DENIELER/jQueryExpandableList",
     "docs": "https://github.com/DENIELER/jQueryExpandableList",
-    "download": "http://code.jquery.com/#jQueryExpandableAjaxList",
+    "download": "https://github.com/DENIELER/jQueryExpandableList/archive/0.0.1.zip",
     "dependencies": {
         "jquery": ">=1.8.4"
     }
