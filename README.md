@@ -4,7 +4,7 @@ jQueryExpandableList
 jQuery list expandable by ajax requests
 
 Example of usage:
-    <script>
+    '<script>
     window.list = new jQueryExpandableAjaxList({
         id: 'expandable-list',
 
@@ -13,4 +13,4 @@ Example of usage:
 
         refreshInterval: 5000
     });
-    </script>
+    </script>'
