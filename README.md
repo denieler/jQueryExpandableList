@@ -4,11 +4,13 @@ jQueryExpandableList
 jQuery list expandable by ajax requests
 
 Example of usage:
-    'window.list = new jQueryExpandableAjaxList({
-        id: 'expandable-list',
+'
+window.list = new jQueryExpandableAjaxList({
+    id: 'expandable-list',
 
-        initUrl: '@Url.Action("GetInitList")',
-        refreshUrl: '@Url.Action("GetList")',
+    initUrl: '@Url.Action("GetInitList")',
+    refreshUrl: '@Url.Action("GetList")',
 
-        refreshInterval: 5000
-    });'
+    refreshInterval: 5000
+});
+'
