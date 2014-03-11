@@ -1,7 +1,7 @@
 jQueryExpandableList
 ====================
 
-jQuery list expandable by ajax requests
+jQuery list expandable by ajax requests. The list is expanding only appears or disappears list items that are loaded by interval from the url service.
 
 Example of usage:
 ```javascript
