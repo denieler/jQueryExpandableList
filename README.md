@@ -21,8 +21,8 @@ HTML:
 </ul>
 ```
 
-* [Documentation](https://github.com/DENIELER/jQueryExpandableList/wiki/Documentation)
-* [Demo page](http://demo)
+#Documentation
+[Documentation](https://github.com/DENIELER/jQueryExpandableList/wiki/Documentation)
 
-Demo link will be soon.. sorry
-
+#Demo
+[Demo page](http://demo)
