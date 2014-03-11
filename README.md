@@ -25,4 +25,4 @@ HTML:
 [Documentation](https://github.com/DENIELER/jQueryExpandableList/wiki/Documentation)
 
 #Demo
-[Demo page](http://demo)
+[Demo page](http://devcodereview.ru/jqueryExpandableAjaxList/jquery-expandable-ajax-list-example.html)
