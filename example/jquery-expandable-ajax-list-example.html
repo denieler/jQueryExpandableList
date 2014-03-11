@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="shortcut icon" href="../../assets/ico/favicon.ico"> -->
+
+    <title>jQuery Expandable Ajax List Example</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body {
+        padding-top: 50px;
+      }
+
+      ul#expandable-list{
+          margin-top: 30px;
+          list-style: none;
+      }
+
+      ul#expandable-list li{
+          height: 40px;
+          line-height: 40px;
+          font-size: 21px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="~/jqueryExpandableAjaxList/jquery-expandable-ajax-list-example.html">jQuery Expandable Ajax List</a>
+        </div>
+        <!-- <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse --> -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>jQuery Expandable Ajax List example</h1>
+        <p class="lead">
+          It is the simple example of Expandable Ajax List plugin for jQuery:
+        </p>
+
+        <div style="width: 500px; margin: 0 auto;">
+          <ul id='expandable-list'>
+          </ul>
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+
+    <script src="/jqueryExpandableAjaxList/jquery-expandable-list.js"></script>
+    <script>
+    $(document).ready(function(){
+        var expandableList = new jQueryExpandableAjaxList({
+            id: 'expandable-list',
+            initUrl: '/jqueryExpandableAjaxList/init.php',
+            refreshUrl: '/jqueryExpandableAjaxList/refresh.php',
+            refreshInterval: 5000
+        });
+    });
+    </script>
+  </body>
+</html>
